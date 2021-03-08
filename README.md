@@ -2,7 +2,7 @@
 
 [Phantom BSP][1] is a collision artifact which sometimes appears in Halo BSP tags compiled by the HEK's tool.exe. Ghostbuster is a command-line tool which detects and fixes these artifacts in-place by modifying the tag's node structure.
 
-**This tool is still experimental. Please report any issues you find.**
+**This tool can produce collision holes as a side effect and phantom BSP detection is limited. The project is now archived as there are better solutions to fixing phantom BSP (fixing nearly-coplanar surfaces), so please only use Ghostbuster as a last resort.**
 
 ## Installation
 You will need Python 3 to use this tool. Clone this repository, or simply download `ghostbuster.py` and `requirements.txt` somewhere convenient. Install dependencies with `pip install --user -r requirements.txt`.
